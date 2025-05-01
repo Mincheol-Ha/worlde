@@ -1,0 +1,26 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.hader_icons__img {
+  display: flex;
+  width: 30px;
+}
+
+.main_word {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* 인라인 여백 제거 */
+}
+
+header {
+  font-family: "Times New Roman", "Batang", serif;
+}
