@@ -4,6 +4,8 @@ main {
   justify-content: center;
   align-items: center;
   gap: 5px;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .board-row {
