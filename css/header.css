@@ -7,7 +7,8 @@ header {
 
 .header_icons__img {
   display: flex;
-  width: 30px;
+  gap: 10px; /* 아이콘 사이 간격 */
+  width: auto; /* ✅ 더 이상 좁게 제한하지 않음 */
 }
 
 .main_word {
@@ -16,9 +17,9 @@ header {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
-  display: block; /* 인라인 여백 제거 */
+  width: 24px; /* 명시적으로 아이콘 크기 조정 */
+  height: 24px;
+  display: block;
 }
 
 header {
