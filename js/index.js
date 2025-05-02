@@ -1,4 +1,4 @@
-const 정답 = "KOREA";
+const 정답 = "LOVEU";
 
 let attempts = 0;
 let index = 0;
@@ -17,7 +17,7 @@ function appStart() {
     document.head.appendChild(style);
 
     const div = document.createElement("div");
-    div.innerText = "🎉 정답입니다! \n 게임이 종료됐습니다.";
+    div.innerText = "🎉 정답입니다! \n 🥰I LOVE U!!😍";
     div.style =
       "display: flex; justify-content: center; align-items: center;" +
       "position: absolute; top: 40vh; left: 45%;" +
